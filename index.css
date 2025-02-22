@@ -21,6 +21,7 @@
 .container {
     background-color: rgb(128, 190, 180);
     border: solid black;
+    margin-top: 7px;
 }
 
 img {
