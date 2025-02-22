@@ -18,15 +18,31 @@
     border: solid black;
 }
 
-.container {
+.container-text {
     background-color: rgb(128, 190, 180);
     border: solid black;
     margin-top: 7px;
 }
 
-img {
-    display: block;
+.container-img {
+    border: solid black;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
+
+.container-img#chickenFriedSteak {
+    height: auto;
+    width: 500px;
+}
+
+.container-img#spaghetti {
+    height: 500px;
+    width: 500px;
+}
+
+.container-img img {
+    height: 96%;
+    width: 96%;
+    border: solid rgb(128, 190, 180);
+    border-width: 10px;
 }
